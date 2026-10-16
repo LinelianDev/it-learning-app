@@ -1,0 +1,3044 @@
+[
+    {
+        "id": 1,
+        "question": "CIDR表記の/24が意味するものとして正しいものはどれか？ [1: ネットワーク部が上位24bit, 2: ホスト部が上位24bit, 3: IPアドレスが24個, 4: クラスC専用のサブネット]",
+        "answer": "正解: 1（上位24ビットがネットワーク部）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 2,
+        "question": "IPv4アドレスのビット数として正しいものはどれか？ [1: 16ビット, 2: 32ビット, 3: 64ビット, 4: 128ビット]",
+        "answer": "正解: 2（32ビット）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 3,
+        "question": "IPアドレスの主な役割として正しいものはどれか？ [1: 端末のハードウェア固有の識別, 2: ネットワーク上の通信相手の特定（住所）, 3: アプリケーションの識別, 4: 暗号化通信の管理]",
+        "answer": "正解: 2（ネットワーク上の通信相手の特定）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 4,
+        "question": "MACアドレスの説明として正しいものはどれか？ [1: ルーターが自動割り当てする, 2: 変更可能な論理アドレス, 3: NICに割り当てられたハードウェア固有の番号, 4: ドメイン名に対応する数値]",
+        "answer": "正解: 3（NICに割り当てられたハードウェア固有の番号）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 5,
+        "question": "OSI参照モデルの階層数として正しいものはどれか？ [1: 4階層, 2: 5階層, 3: 7階層, 4: 9階層]",
+        "answer": "正解: 3（7階層）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 6,
+        "question": "TCP/IPモデルの階層数として正しいものはどれか？ [1: 3階層, 2: 4階層, 3: 5階層, 4: 7階層]",
+        "answer": "正解: 2（4階層）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 7,
+        "question": "HTTPのデフォルトのポート番号はどれか？ [1: 22番, 2: 53番, 3: 80番, 4: 443番]",
+        "answer": "正解: 3（80番）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 8,
+        "question": "HTTPSのデフォルトのポート番号はどれか？ [1: 21番, 2: 80番, 3: 443番, 4: 8080番]",
+        "answer": "正解: 3（443番）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 9,
+        "question": "SSHのデフォルトのポート番号はどれか？ [1: 22番, 2: 25番, 3: 110番, 4: 443番]",
+        "answer": "正解: 1（22番）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 10,
+        "question": "DNSの主な役割として正しいものはどれか？ [1: パケットのルーティング, 2: ドメイン名とIPアドレスの名前解決, 3: IPアドレスの動的割り当て, 4: 通信の暗号化]",
+        "answer": "正解: 2（ドメイン名とIPアドレスの名前解決）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 11,
+        "question": "TCPとUDPの違いに関する説明で正しいものはどれか？ [1: TCPは速度重視、UDPは信頼性重視, 2: TCPは信頼性重視、UDPは速度重視, 3: どちらも信頼性は同じ, 4: UDPはコネクション型である]",
+        "answer": "正解: 2（TCPは信頼性重視、UDPは速度重視）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 12,
+        "question": "NATの説明として最も適切なものはどれか？ [1: MACアドレスをIPアドレスに変換する, 2: プライベートIPとグローバルIPを相互変換する, 3: ドメイン名を暗号化する, 4: パケットを圧縮する]",
+        "answer": "正解: 2（プライベートIPとグローバルIPを相互変換する）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 13,
+        "question": "NAPT（IPマスカレード）の特徴はどれか？ [1: 1対1でしか変換できない, 2: ポート番号を使って1つのグローバルIPを複数で共有する, 3: 外部からプライベートIPが直接見えるようにする, 4: 暗号化を行う]",
+        "answer": "正解: 2（ポート番号を使って1つのグローバルIPを複数で共有する）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 14,
+        "question": "pingコマンドの用途として正しいものはどれか？ [1: ルート情報の表示, 2: 相手ホストとの通信疎通確認, 3: 開いているポートのスキャン, 4: ファイルの転送]",
+        "answer": "正解: 2（相手ホストとの通信疎通確認）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 15,
+        "question": "HTTPメソッドの「GET」の用途はどれか？ [1: データの新規作成, 2: サーバーからのデータ取得, 3: データの削除, 4: サーバー情報の書き換え]",
+        "answer": "正解: 2（サーバーからのデータ取得）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 16,
+        "question": "HTTPメソッドの「POST」の用途として正しいものはどれか？ [1: サーバーからのデータ取得, 2: データの削除, 3: サーバーへのデータ送信・新規作成, 4: 接続テスト]",
+        "answer": "正解: 3（サーバーへのデータ送信・新規作成）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 17,
+        "question": "GETリクエストでデータが送信される場所はどこか？ [1: リクエストボディ, 2: URLのクエリパラメータ, 3: クッキー内のみ, 4: サーバーのメモリ]",
+        "answer": "正解: 2（URLのクエリパラメータ）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 18,
+        "question": "ルーターが異なるネットワークへ通信を中継するために設定するIPアドレスを何というか？ [1: デフォルトゲートウェイ, 2: ローカルIP, 3: サブネットプレフィックス, 4: ブロードキャストIP]",
+        "answer": "正解: 1（デフォルトゲートウェイ）",
+        "category": "network",
+        "mastery_score": 3,
+        "label": "復習中",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 19,
+        "question": "DNSの問い合わせに使用されるポート番号はいくつかるか？ [1: 22番, 2: 53番, 3: 80番, 4: 443番]",
+        "answer": "正解: 2（53番）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 20,
+        "question": "グローバルIPアドレスの主な特徴はどれか？ [1: 組織内だけで自由に使える, 2: インターネット上で一意に識別される, 3: ルーターが自動生成する偽のIP, 4: 通信速度が必ず速くなる]",
+        "answer": "正解: 2（インターネット上で一意に識別される）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 21,
+        "question": "プライベートIPアドレスが使用される範囲はどこか？ [1: インターネット全体, 2: 組織内や家庭内のローカルネットワーク, 3: ルーターの内部回路のみ, 4: クラウドサーバー上のみ]",
+        "answer": "正解: 2（組織内や家庭内のローカルネットワーク）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 22,
+        "question": "トランスポート層で動作するプロトコルの組み合わせとして正しいものはどれか？ [1: HTTP / HTTPS, 2: TCP / UDP, 3: IP / ICMP, 4: Ethernet / Wi-Fi]",
+        "answer": "正解: 2（TCP / UDP）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 23,
+        "question": "ネットワーク層（レイヤー3）で主に使われるプロトコルはどれか？ [1: TCP, 2: HTTP, 3: IP, 4: Ethernet]",
+        "answer": "正解: 3（IP）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 24,
+        "question": "データリンク層（レイヤー2）で通信の宛先を指定するために使われるアドレスはどれか？ [1: IPアドレス, 2: MACアドレス, 3: ポート番号, 4: URL]",
+        "answer": "正解: 2（MACアドレス）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 25,
+        "question": "HTTPの通信においてサーバーがクライアントへ返すステータスコード「200」が意味することは何か？ [1: ページが見つからない (Not Found), 2: 処理が成功 (OK), 3: サーバーエラー (Internal Error), 4: リダイレクトが必要]",
+        "answer": "正解: 2（処理が成功 (OK)）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 26,
+        "question": "HTTPステータスコード「404」が意味することは何か？ [1: 成功, 2: 認証エラー, 3: ページが見つからない (Not Found), 4: サーバー側の異常]",
+        "answer": "正解: 3（ページが見つからない (Not Found)）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 27,
+        "question": "HTTPステータスコード「500番台」が意味するものは何か？ [1: クライアント側の入力ミス, 2: サーバー内部のエラー, 3: ページ移動, 4: 通信の切断]",
+        "answer": "正解: 2（サーバー内部のエラー）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 28,
+        "question": "パケット通信における「パケット」とは何を指すか？ [1: 送信データを小さなブロックに分割したもの, 2: 暗号化されたパスワードの束, 3: Webブラウザのキャッシュデータ, 4: サーバーのバックアップファイル]",
+        "answer": "正解: 1（送信データを小さなブロックに分割したもの）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 29,
+        "question": "LANとWANの違いとして正しいものはどれか？ [1: LANは広範囲、WANは局所的, 2: LANは局所的なネットワーク、WANは広域なネットワーク, 3: どちらも同じ意味, 4: LANは無線専用、WANは有線専用]",
+        "answer": "正解: 2（LANは局所的なネットワーク、WANは広域なネットワーク）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 30,
+        "question": "スイッチングハブの主な役割はどれか？ [1: 異なるネットワーク同士を接続する, 2: 同一ネットワーク内の端末間でデータを適切に中継する, 3: IPアドレスを自動で割り当てる, 4: ドメイン名を変換する]",
+        "answer": "正解: 2（同一ネットワーク内の端末間でデータを適切に中継する）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 31,
+        "question": "ルーターの主な役割はどれか？ [1: 同一ネットワーク内の転送のみ行う, 2: 異なるネットワーク間（ネットワーク層）でパケットを中継する, 3: ファイルの保存管理を行う, 4: 画面を表示する]",
+        "answer": "正解: 2（異なるネットワーク間でパケットを中継する）",
+        "category": "network",
+        "mastery_score": 4,
+        "label": "復習中",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 32,
+        "question": "DHCPの主な役割は何か？ [1: IPアドレスを自動的に割り当てる, 2: ドメイン名をIPに変換する, 3: パケットを暗号化する, 4: MACアドレスを固定する]",
+        "answer": "正解: 1（IPアドレスを自動的に割り当てる）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 33,
+        "question": "サブネットマスクの役割として正しいものはどれか？ [1: IPアドレスのネットワーク部とホスト部を区別する, 2: 通信速度を高速化する, 3: 暗号化の鍵を作る, 4: ポート番号を隠す]",
+        "answer": "正解: 1（IPアドレスのネットワーク部とホスト部を区別する）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 34,
+        "question": "TCPの「3ウェイハンドシェイク」の目的はどれか？ [1: データの暗号化方式を決める, 2: 接続を確認し、確実な通信路を確立する, 3: 回線を強制的に切断する, 4: データの圧縮率を計算する]",
+        "answer": "正解: 2（接続を確認し、確実な通信路を確立する）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 35,
+        "question": "ループバックアドレス（自分自身を示すIPアドレス）として使われるものはどれか？ [1: 192.168.1.1, 2: 10.0.0.1, 3: 127.0.0.1, 4: 255.255.255.255]",
+        "answer": "正解: 3（127.0.0.1）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 36,
+        "question": "ブロードキャストアドレスの役割はどれか？ [1: 同一ネットワーク上のすべての機器に一斉送信する, 2: 特定の1台だけに送信する, 3: インターネットの外へ送信する, 4: 通信を完全に遮断する]",
+        "answer": "正解: 1（同一ネットワーク上のすべての機器に一斉送信する）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 37,
+        "question": "IPv6アドレスのビット数として正しいものはどれか？ [1: 32ビット, 2: 64ビット, 3: 128ビット, 4: 256ビット]",
+        "answer": "正解: 3（128ビット）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 38,
+        "question": "プロキシサーバーの役割として正しいものはどれか？ [1: クライアントの代わりに代理でインターネットアクセスを行う, 2: ハードウェアの故障を修理する, 3: OSを自動アップデートする, 4: パソコンの電源を管理する]",
+        "answer": "正解: 1（クライアントの代わりに代理でインターネットアクセスを行う）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 39,
+        "question": "ファイアウォールの主な目的はどれか？ [1: 通信のスピードを上げる, 2: 不正なアクセスやパケットを遮断しセキュリティを守る, 3: ディスク容量を増やす, 4: Wi-Fiの電波を強くする]",
+        "answer": "正解: 2（不正なアクセスやパケットを遮断しセキュリティを守る）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 40,
+        "question": "セキュアな通信を行うためのTLS/SSLはOSI参照モデルのどの層で主に動作するか？ [1: 物理層, 2: トランスポート層 / アプリケーション層周辺, 3: データリンク層, 4: ネットワーク層]",
+        "answer": "正解: 2（トランスポート層 / アプリケーション層周辺）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 41,
+        "question": "UbuntuのベースとなったLinuxディストリビューションはどれか？ [1: RedHat, 2: CentOS, 3: Debian, 4: Fedora]",
+        "answer": "正解: 3（Debian）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 42,
+        "question": "現在自分がいるディレクトリ（カレントディレクトリ）を確認するコマンドはどれか？ [1: ls, 2: pwd, 3: cd, 4: cp]",
+        "answer": "正解: 2（pwd）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 43,
+        "question": "ディレクトリ内のファイル一覧を表示するコマンドはどれか？ [1: ls, 2: cat, 3: rm, 4: mv]",
+        "answer": "正解: 1（ls）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 44,
+        "question": "隠しファイルも含めて一覧表示するオプションはどれか？ [1: ls -l, 2: ls -a, 3: ls -r, 4: ls -h]",
+        "answer": "正解: 2（ls -a）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 45,
+        "question": "ディレクトリを移動するコマンドはどれか？ [1: mv, 2: cp, 3: cd, 4: jump]",
+        "answer": "正解: 3（cd）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 46,
+        "question": "一つ上の親ディレクトリを表す記号はどれか？ [1: ./, 2: ../, 3: ~/, 4: /]",
+        "answer": "正解: 2（../）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 47,
+        "question": "新しいディレクトリを作成するコマンドはどれか？ [1: touch, 2: mkdir, 3: newdir, 4: create]",
+        "answer": "正解: 2（mkdir）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 48,
+        "question": "ファイルを強制的に中身ごと削除するコマンドの組み合わせはどれか？ [1: rm -rf, 2: rm -f, 3: delete -r, 4: clear -all]",
+        "answer": "正解: 1（rm -rf）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 49,
+        "question": "ファイルを別の場所に複製（コピー）するコマンドはどれか？ [1: mv, 2: cp, 3: clone, 4: copy]",
+        "answer": "正解: 2（cp）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 50,
+        "question": "ファイルの形式（種類）を判別するコマンドはどれか？ [1: type, 2: check, 3: file, 4: info]",
+        "answer": "正解: 3（file）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 51,
+        "question": "コマンドを入力したときに実行ファイルを探しに行くパスのリストを何というか？ [1: PATH, 2: HOME, 3: ROOT, 4: EXEC]",
+        "answer": "正解: 1（PATH）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 52,
+        "question": "カレントディレクトリにある実行ファイルを動かす際に先頭につける記号はどれか？ [1: /#, 2: ./, 3: ?/, 4: ~/]",
+        "answer": "正解: 2（./）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 53,
+        "question": "Vimで挿入モードに入るためのキーはどれか？ [1: a, 2: i, 3: o, 4: e]",
+        "answer": "正解: 2（i キー）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 54,
+        "question": "Vimでコマンドモードに戻るためのキーはどれか？ [1: Enter, 2: Tab, 3: Esc, 4: Shift]",
+        "answer": "正解: 3（Esc キー）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 55,
+        "question": "Vimでファイルを保存して終了するコマンドはどれか？ [1: :w, 2: :q, 3: :wq, 4: :save]",
+        "answer": "正解: 3（:wq）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 56,
+        "question": "Linuxのスーパーユーザー（管理者）のユーザー名はどれか？ [1: admin, 2: super, 3: root, 4: master]",
+        "answer": "正解: 3（root）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 57,
+        "question": "パーミッションの「r」「w」「x」のうち「w」が意味するものはどれか？ [1: 読み取り, 2: 書き込み, 3: 実行, 4: 削除]",
+        "answer": "正解: 2（書き込み）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 58,
+        "question": "パーミッションを数値で表したとき、読み書き実行すべてを許可する数値はどれか？ [1: 5, 2: 6, 3: 7, 4: 8]",
+        "answer": "正解: 3（7）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 59,
+        "question": "環境変数の一覧を表示するコマンドはどれか？ [1: listenv, 2: env, 3: showvar, 4: print]",
+        "answer": "正解: 2（env）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 60,
+        "question": "ファイル内から特定の文字列を検索するコマンドはどれか？ [1: search, 2: find, 3: grep, 4: locate]",
+        "answer": "正解: 3（grep）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 61,
+        "question": "正規表現において「行頭」を表す記号はどれか？ [1: ^, 2: $, 3: ., 4: *]",
+        "answer": "正解: 1（^）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 62,
+        "question": "正規表現において「行末」を表す記号はどれか？ [1: ^, 2: $, 3: ?, 4: +]",
+        "answer": "正解: 2（$）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要重点復習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 63,
+        "question": "2つのファイルの差分を表示するコマンドはどれか？ [1: compare, 2: check, 3: diff, 4: match]",
+        "answer": "正解: 3（diff）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 64,
+        "question": "ファイルから特定の列（フィールド）を切り出すコマンドはどれか？ [1: cut, 2: split, 3: slice, 4: pick]",
+        "answer": "正解: 1（cut）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 65,
+        "question": "シンボリックリンクを作成するコマンドのオプションはどれか？ [1: -l, 2: -s, 3: -n, 4: -c]",
+        "answer": "正解: 2（-s）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 66,
+        "question": "実行中のプロセスを確認するコマンドはどれか？ [1: pc, 2: task, 3: ps, 4: proc]",
+        "answer": "正解: 3（ps）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 67,
+        "question": "実行中のプロセスを一時停止するキーボードショートカットはどれか？ [1: Ctrl + C, 2: Ctrl + Z, 3: Ctrl + D, 4: Ctrl + X]",
+        "answer": "正解: 2（Ctrl + Z）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 68,
+        "question": "プロセスを強制終了するコマンドはどれか？ [1: stop, 2: end, 3: kill, 4: terminate]",
+        "answer": "正解: 3（kill）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 69,
+        "question": "ファイルの所有者を変更するコマンドはどれか？ [1: chown, 2: chmod, 3: chgrp, 4: owner]",
+        "answer": "正解: 1（chown）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 70,
+        "question": "新しい空のファイルを作成したりタイムスタンプを更新するコマンドはどれか？ [1: make, 2: touch, 3: create, 4: new]",
+        "answer": "正解: 2（touch）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 71,
+        "question": "標準出力をファイルに上書き保存するためのリダイレクト記号はどれか？ [1: >, 2: >>, 3: <, 4:",
+        "answer": "]",
+        "category": "正解: 1（>）",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 72,
+        "question": "標準出力をファイルに追記するためのリダイレクト記号はどれか？ [1: >, 2: >>, 3: <, 4: &]",
+        "answer": "正解: 2（>>）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 73,
+        "question": "前のコマンドの出力を次のコマンドの入力に渡すパイプの記号はどれか？ [1: &, 2: >, 3:",
+        "answer": ", 4: ~]",
+        "category": "正解: 3（",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 74,
+        "question": "システムをシャットダウンまたは再起動する代表的なコマンドはどれか？ [1: poweroff, 2: shutdown, 3: reboot, 4: すべて正解]",
+        "answer": "正解: 4（すべて正解）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 75,
+        "question": "特定のコマンドの使い道やマニュアルを表示するコマンドはどれか？ [1: help, 2: man, 3: info, 4: doc]",
+        "answer": "正解: 2（man）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 76,
+        "question": "Debian系Linuxでパッケージのリストを更新するコマンドはどれか？ [1: apt update, 2: apt refresh, 3: apt sync, 4: apt reload]",
+        "answer": "正解: 1（apt update）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 77,
+        "question": "Debian系Linuxでインストール済みのパッケージをアップグレードするコマンドはどれか？ [1: apt upgrade, 2: apt update, 3: apt install, 4: apt renewal]",
+        "answer": "正解: 1（apt upgrade）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 78,
+        "question": "ユーザーのパスワードを変更するコマンドはどれか？ [1: passwd, 2: password, 3: chpwd, 4: user-mod]",
+        "answer": "正解: 1（passwd）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 79,
+        "question": "現在ログインしているユーザー名を確認するコマンドはどれか？ [1: whoami, 2: myname, 3: username, 4: id_user]",
+        "answer": "正解: 1（whoami）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 80,
+        "question": "ディスクの空き容量を確認するコマンドはどれか？ [1: df, 2: du, 3: free, 4: disk]",
+        "answer": "正解: 1（df）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 81,
+        "question": "ディレクトリの容量（サイズ）を確認するコマンドはどれか？ [1: df, 2: du, 3: size, 4: capacity]",
+        "answer": "正解: 2（du）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 82,
+        "question": "メモリの使用状況を確認するコマンドはどれか？ [1: memory, 2: ram, 3: free, 4: status]",
+        "answer": "正解: 3（free）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 83,
+        "question": "バックグラウンドで実行中のジョブの一覧を表示するコマンドはどれか？ [1: jobs, 2: tasks, 3: ps, 4: running]",
+        "answer": "正解: 1（jobs）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 84,
+        "question": "バックグラウンドのジョブをフォアグラウンドに戻すコマンドはどれか？ [1: fg, 2: bg, 3: back, 4: return]",
+        "answer": "正解: 1（fg）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 85,
+        "question": "テキストファイルの内容を画面に連続表示するコマンドはどれか？ [1: show, 2: cat, 3: view, 4: print]",
+        "answer": "正解: 2（cat）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 86,
+        "question": "長文のテキストファイルをスクロールしながら閲覧できるコマンドはどれか？ [1: less（またはmore）, 2: scroll, 3: read, 4: view]",
+        "answer": "正解: 1（less）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 87,
+        "question": "ファイルの先頭数行を表示するコマンドはどれか？ [1: first, 2: head, 3: top, 4: start]",
+        "answer": "正解: 2（head）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 88,
+        "question": "ファイルの末尾数行を表示するコマンドはどれか？ [1: bottom, 2: tail, 3: end, 4: last]",
+        "answer": "正解: 2（tail）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 89,
+        "question": "特定の条件に一致するファイルをシステム全体から高速に探すコマンドはどれか？ [1: search, 2: locate, 3: find, 4: grep]",
+        "answer": "正解: 2（locate）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 90,
+        "question": "Vimで文字を検索する際にコマンドモードで最初に入力する記号はどれか？ [1: /, 2: ?, 3: :, 4: @]",
+        "answer": "正解: 1（/）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 91,
+        "question": "Pythonのバージョン管理を行うためのツールはどれか？ [1: venv, 2: pyenv, 3: pip, 4: conda]",
+        "answer": "正解: 2（pyenv）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 92,
+        "question": "仮想環境を作成するための標準モジュールはどれか？ [1: venv, 2: pyenv, 3: virtual, 4: envs]",
+        "answer": "正解: 1（venv）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 93,
+        "question": "仮想環境を有効化（アクティベート）するコマンドに含まれるものはどれか？ [1: start, 2: activate, 3: run, 4: begin]",
+        "answer": "正解: 2（activate）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 94,
+        "question": "Pythonのパッケージ管理ツールはどれか？ [1: npm, 2: pip, 3: apt, 4: gem]",
+        "answer": "正解: 2（pip）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 95,
+        "question": "インストール済みのパッケージ一覧をファイルに書き出すコマンドはどれか？ [1: pip save, 2: pip output, 3: pip freeze > requirements.txt, 4: pip export]",
+        "answer": "正解: 3（pip freeze > requirements.txt）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 96,
+        "question": "Pythonのデータ型で真偽値（True/False）を表すものはどれか？ [1: int, 2: str, 3: bool, 4: float]",
+        "answer": "正解: 3（bool）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 97,
+        "question": "条件分岐を記述するためのキーワードの組み合わせはどれか？ [1: if, elif, else, 2: when, then, else, 3: case, match, default, 4: check, next, stop]",
+        "answer": "正解: 1（if, elif, else）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 98,
+        "question": "複数のデータを順序あり・変更可能で保持するデータ構造はどれか？ [1: tuple, 2: list, 3: set, 4: dict]",
+        "answer": "正解: 2（list）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 99,
+        "question": "キーと値のペアでデータを保持するデータ構造はどれか？ [1: list, 2: tuple, 3: dict, 4: array]",
+        "answer": "正解: 3（dict）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 100,
+        "question": "関数を定義するためのキーワードはどれか？ [1: func, 2: define, 3: def, 4: function]",
+        "answer": "正解: 3（def）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 101,
+        "question": "オブジェクト指向において「設計図」に例えられるものはどれか？ [1: インスタンス, 2: クラス, 3: メソッド, 4: オブジェクト]",
+        "answer": "正解: 2（クラス）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 102,
+        "question": "オブジェクト指向の三大要素に含まれないものはどれか？ [1: カプセル化, 2: 継承, 3: ポリモーフィズム, 4: コンパイル]",
+        "answer": "正解: 4（コンパイル）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 103,
+        "question": "Pythonで画面に出力を行うための標準関数はどれか？ [1: print(), 2: echo(), 3: output(), 4: display()]",
+        "answer": "正解: 1（print()）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 104,
+        "question": "Pythonでユーザーからの入力を受け取るための標準関数はどれか？ [1: get(), 2: input(), 3: read(), 4: scan()]",
+        "answer": "正解: 2（input()）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 105,
+        "question": "Pythonのリストに要素を追加するためのメソッドはどれか？ [1: add(), 2: append(), 3: insert(), 4: push()]",
+        "answer": "正解: 2（append()）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 106,
+        "question": "Pythonの辞書型から特定のキーに対応する値を取り出す際に使う構文はどれか？ [1: dict[key], 2: dict.get(key), 3: 1と2の両方, 4: dict(key)]",
+        "answer": "正解: 3（1と2の両方）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 107,
+        "question": "クラスから生成された具体的な実体を何と呼ぶか？ [1: モジュール, 2: インスタンス, 3: パッケージ, 4: 関数]",
+        "answer": "正解: 2（インスタンス）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 108,
+        "question": "クラスの中に定義された変数を何と呼ぶか？ [1: グローバル変数, 2: インスタンス変数（属性）, 3: ローカル定数, 4: メソッド変数]",
+        "answer": "正解: 2（インスタンス変数（属性））",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 109,
+        "question": "クラスの中に定義された関数を何と呼ぶか？ [1: プロシージャ, 2: サブルーチン, 3: メソッド, 4: アクション]",
+        "answer": "正解: 3（メソッド）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 110,
+        "question": "オブジェクト指向における「継承」のメリットはどれか？ [1: コードを重複させず再利用できる, 2: 実行スピードが必ず倍になる, 3: ファイル容量がゼロになる, 4: バグが絶対に発生しなくなる]",
+        "answer": "正解: 1（コードを重複させず再利用できる）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 111,
+        "question": "オブジェクト指向における「ポリモーフィズム（多態性）」の説明として正しいものはどれか？ [1: 同じ名前のメソッドでもオブジェクトに応じて異なる処理を実行できる, 2: 変数の型を強制的に固定する仕組み, 3: クラスを完全に隠蔽する仕組み, 4: メモリを自動解放する仕組み]",
+        "answer": "正解: 1（同じ名前のメソッドでもオブジェクトに応じて異なる処理を実行できる）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 112,
+        "question": "オブジェクト指向における「カプセル化」の主な目的はどれか？ [1: データを隠蔽し、不正な書き換えから守る, 2: プログラムの処理速度を極限まで上げる, 3: すべての変数を誰からでも自由に触れるようにする, 4: コードの行数を増やす]",
+        "answer": "正解: 1（データを隠蔽し、不正な書き換えから守る）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 113,
+        "question": "Pythonでモジュールを読み込むためのキーワードはどれか？ [1: include, 2: import, 3: require, 4: load]",
+        "answer": "正解: 2（import）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 114,
+        "question": "Pythonで例外処理（エラーハンドリング）を行うためのキーワードの組み合わせはどれか？ [1: try, except, 2: catch, throw, 3: error, rescue, 4: monitor, recover]",
+        "answer": "正解: 1（try, except）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 115,
+        "question": "Pythonでファイルを読み込みモードで開く際の組み込み関数はどれか？ [1: open(filename, 'r'), 2: read(filename), 3: file.open(), 4: load(filename)]",
+        "answer": "正解: 1（open(filename, 'r')）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 116,
+        "question": "Pythonの「with文」を使う最大のメリットはどれか？ [1: 処理速度が速くなる, 2: ファイルの閉じ忘れなどの後処理を自動で行ってくれる, 3: エラーが一切起きなくなる, 4: メモリ消費が半分になる]",
+        "answer": "正解: 2（ファイルの閉じ忘れなどの後処理を自動で行ってくれる）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 117,
+        "question": "Pythonで繰り返し処理を途中で抜け出すためのキーワードはどれか？ [1: stop, 2: break, 3: exit, 4: return]",
+        "answer": "正解: 2（break）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 118,
+        "question": "Pythonでループの現在の回をスキップして次の周に進むキーワードはどれか？ [1: skip, 2: continue, 3: next, 4: pass]",
+        "answer": "正解: 2（continue）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 119,
+        "question": "Pythonで何もしないことを表すプレースホルダー的なキーワードはどれか？ [1: none, 2: pass, 3: null, 4: empty]",
+        "answer": "正解: 2（pass）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 120,
+        "question": "Pythonの標準ライブラリで乱数を扱うためのものはどれか？ [1: random, 2: math, 3: datetime, 4: json]",
+        "answer": "正解: 1（random）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 121,
+        "question": "Pythonの標準ライブラリで日付や時刻を扱うためのものはどれか？ [1: time, 2: calendar, 3: datetime, 4: すべて正解]",
+        "answer": "正解: 4（すべて正解）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 122,
+        "question": "Pythonの標準ライブラリでJSONデータを扱うためのものはどれか？ [1: json, 2: xml, 3: data, 4: text]",
+        "answer": "正解: 1（json）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 123,
+        "question": "Pythonの仮想環境（venv）の有効化を解除するコマンドはどれか？ [1: off, 2: disable, 3: deactivate, 4: close]",
+        "answer": "正解: 3（deactivate）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 124,
+        "question": "pyenvでインストール可能なPythonのバージョン一覧を表示するコマンドはどれか？ [1: pyenv list, 2: pyenv versions, 3: pyenv install --list, 4: pyenv show]",
+        "answer": "正解: 3（pyenv install --list）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 125,
+        "question": "pyenvで特定のバージョンをグローバルに設定するコマンドはどれか？ [1: pyenv global <version>, 2: pyenv set <version>, 3: pyenv use <version>, 4: pyenv change <version>]",
+        "answer": "正解: 1（pyenv global <version>）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 126,
+        "question": "Pythonで変数を定義する際に型宣言が必要か？ [1: 必ず必要, 2: 必要ない（動的型付け言語）, 3: 整数のみ必要, 4: 文字列のみ必要]",
+        "answer": "正解: 2（必要ない（動的型付け言語））",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 127,
+        "question": "Pythonでコメントアウトを記述する際に使用する記号はどれか？ [1: //, 2: /*, 3: #, 4: --]",
+        "answer": "正解: 3（#）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 128,
+        "question": "Pythonのインデント（字下げ）は何スペースが推奨されているか？ [1: 2スペース, 2: 4スペース, 3: タブキー1つ, 4: 8スペース]",
+        "answer": "正解: 2（4スペース）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 129,
+        "question": "Pythonで辞書型のすべてのキーを取得するメソッドはどれか？ [1: keys(), 2: get_keys(), 3: list_keys(), 4: show_keys()]",
+        "answer": "正解: 1（keys()）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 130,
+        "question": "Pythonで辞書型のすべての値を取得するメソッドはどれか？ [1: values(), 2: get_values(), 3: all_values(), 4: items()]",
+        "answer": "正解: 1（values()）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 131,
+        "question": "静的ウェブサイトの説明として正しいものはどれか？ [1: アクセスごとに内容が変化する, 2: サーバー側でプログラムを実行して動的に作る, 3: あらかじめ用意されたファイルをそのまま返す, 4: データベースと常に連動している]",
+        "answer": "正解: 3（あらかじめ用意されたファイルをそのまま返す）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 132,
+        "question": "Cookieが保存される場所として正しいものはどれか？ [1: サーバーのデータベース, 2: ユーザーのブラウザ側（クライアント）, 3: ルーターのキャッシュ, 4: クラウドのストレージ]",
+        "answer": "正解: 2（ユーザーのブラウザ側）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 133,
+        "question": "セッション情報が保存される場所として正しいものはどれか？ [1: ユーザーのブラウザ, 2: サーバー側, 3: ローカルストレージ, 4: URLのクエリ]",
+        "answer": "正解: 2（サーバー側）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 134,
+        "question": "ログインの仕組みにおいてブラウザとサーバーの間で状態維持に使われる代表的なIDはどれか？ [1: セッションID, 2: クッキーID, 3: ホストID, 4: プロキシID]",
+        "answer": "正解: 1（セッションID）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 135,
+        "question": "JWTは何の略か？ [1: Java Web Token, 2: JSON Web Token, 3: JavaScript Web Transfer, 4: Jumper Web Tool]",
+        "answer": "正解: 2（JSON Web Token）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 136,
+        "question": "動的ウェブサイトの特徴はどれか？ [1: すべてのデータがHTMLに固定されている, 2: アクセスやリクエストに応じてサーバー側でプログラムが処理を行い内容が変化する, 3: インターネット接続が不要である, 4: JavaScriptがブラウザで動かない]",
+        "answer": "正解: 2（アクセスやリクエストに応じてサーバー側でプログラムが処理を行い内容が変化する）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 137,
+        "question": "Webサーバーソフトウェアの代表例として正しいものの組み合わせはどれか？ [1: Nginx / Apache, 2: Windows / macOS, 3: Python / Ruby, 4: Git / GitHub]",
+        "answer": "正解: 1（Nginx / Apache）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 138,
+        "question": "ブラウザにURLを入力してWebページが表示されるまでの最初のステップはどれか？ [1: HTTPリクエストの送信, 2: DNSによるドメイン名の名前解決, 3: データベースの検索, 4: Cookieの生成]",
+        "answer": "正解: 2（DNSによるドメイン名の名前解決）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 139,
+        "question": "HTTPレスポンスにおいてサーバーからブラウザにCookieの保存を指示するヘッダ名はどれか？ [1: Save-Cookie, 2: Set-Cookie, 3: Send-Cookie, 4: Cookie-Store]",
+        "answer": "正解: 2（Set-Cookie）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 140,
+        "question": "ブラウザが次回以降のアクセス時に自動でサーバーへCookieを送信するために用いるリクエストヘッダ名はどれか？ [1: Cookie, 2: Send-Cookie, 3: Header-Cookie, 4: Client-Cookie]",
+        "answer": "正解: 1（Cookie）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 141,
+        "question": "セッション管理においてセッションIDをCookieに保存する最大のメリットはどれか？ [1: サーバー側でユーザーを特定しログイン状態を安全に維持できる, 2: 通信速度が必ず10倍になる, 3: パスワードを暗号化せずに平文で保存できる, 4: サーバーのメモリが全く減らなくなる]",
+        "answer": "正解: 1（サーバー側でユーザーを特定しログイン状態を安全に維持できる）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 142,
+        "question": "Webアプリケーションでフォームに入力されたパスワードなどの機密データを送信する際、GETではなくPOSTメソッドを使うべき理由はどれか？ [1: URLにパスワードが露出せず、ボディに含まれて安全に送れるから, 2: GETよりも送信スピードが圧倒的に遅いから, 3: サーバーが受け取りを拒否するから, 4: 誰でもURLから見られるようにするため]",
+        "answer": "正解: 1（URLにパスワードが露出せず、ボディに含まれて安全に送れるから）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 143,
+        "question": "HTTPS通信で使用される暗号化技術の土台となっているプロトコルはどれか？ [1: SSL/TLS, 2: HTTP/2, 3: FTP/SFTP, 4: TCP/UDP]",
+        "answer": "正解: 1（SSL/TLS）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 144,
+        "question": "Webブラウザの主要な役割はどれか？ [1: HTMLなどのコードを解釈して画面に描画（レンダリング）する, 2: OSを新規インストールする, 3: サーバーのプログラムを直接コンパイルする, 4: ネットワークケーブルを管理する]",
+        "answer": "正解: 1（HTMLなどのコードを解釈して画面に描画（レンダリング）する）",
+        "category": "web",
+        "mastery_score": 5,
+        "label": "マスター",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 145,
+        "question": "クライアント・サーバーモデルにおける「クライアント」とは何を指すか？ [1: サービスを要求する側（ブラウザなど）, 2: サービスを提供する側（Webサーバー）, 3: データベースそのもの, 4: ルーターの機器]",
+        "answer": "正解: 1（サービスを要求する側（ブラウザなど））",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 146,
+        "question": "Gitの説明として最も適切なものはどれか？ [1: クラウド上でファイルを共有するだけのサービス, 2: 変更履歴を記録・追跡する分散型バージョン管理システム, 3: Webサイトを作成するためのプログラミング言語, 4: Linuxのサーバー管理ツール]",
+        "answer": "正解: 2（変更履歴を記録・追跡する分散型バージョン管理システム）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 147,
+        "question": "ローカルリポジトリに変更履歴を記録（保存）するコマンドはどれか？ [1: git save, 2: git push, 3: git commit, 4: git record]",
+        "answer": "正解: 3（git commit）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 148,
+        "question": "ワークディレクトリの変更をステージングエリアに追加するコマンドはどれか？ [1: git add, 2: git stage, 3: git insert, 4: git put]",
+        "answer": "正解: 1（git add）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 149,
+        "question": "ローカルの変更履歴をリモートリポジトリに送信するコマンドはどれか？ [1: git send, 2: git upload, 3: git push, 4: git post]",
+        "answer": "正解: 3（git push）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 150,
+        "question": "リモートリポジトリの最新の変更をローカルに取り込む代表的なコマンドはどれか？ [1: git get, 2: git fetch, 3: git pull, 4: git download]",
+        "answer": "正解: 3（git pull）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 151,
+        "question": "新しく作業用の枝分かれした空間を作るコマンドはどれか？ [1: git tree, 2: git branch, 3: git fork, 4: git split]",
+        "answer": "正解: 2（git branch）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 152,
+        "question": "別のブランチに切り替えるモダンなコマンドはどれか？ [1: git switch, 2: git change, 3: git move, 4: git jump]",
+        "answer": "正解: 1（git switch）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 153,
+        "question": "別のブランチの変更を現在のブランチに統合するコマンドはどれか？ [1: git join, 2: git merge, 3: git combine, 4: git integrate]",
+        "answer": "正解: 2（git merge）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 154,
+        "question": "現在のGitの状況や変更ファイルを確認するコマンドはどれか？ [1: git check, 2: git state, 3: git status, 4: git info]",
+        "answer": "正解: 3（git status）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 155,
+        "question": "これまでのコミット履歴（ログ）を確認するコマンドはどれか？ [1: git history, 2: git log, 3: git record, 4: git trace]",
+        "answer": "正解: 2（git log）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 156,
+        "question": "新しくGitリポジトリを初期化（作成）するコマンドはどれか？ [1: git start, 2: git init, 3: git new, 4: git create]",
+        "answer": "正解: 2（git init）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 157,
+        "question": "リモートリポジトリを手元に複製（ダウンロード）するコマンドはどれか？ [1: git clone, 2: git copy, 3: git download, 4: git pull]",
+        "answer": "正解: 1（git clone）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 158,
+        "question": "ステージングエリアに追加した変更をやっぱり取り消す（ステージから下ろす）ための代表的なコマンドはどれか？ [1: git reset, 2: git clear, 3: git remove, 4: git delete]",
+        "answer": "正解: 1（git reset）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 159,
+        "question": "コミットメッセージを付けて履歴を保存する際のオプションはどれか？ [1: -m \"メッセージ\", 2: -t \"メッセージ\", 3: -n \"メッセージ\", 4: -d \"メッセージ\"]",
+        "answer": "正解: 1（-m \"メッセージ\"）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 160,
+        "question": "GitHubなどのリモートリポジトリの登録情報を確認するコマンドはどれか？ [1: git remote -v, 2: git repo list, 3: git url show, 4: git host check]",
+        "answer": "正解: 1（git remote -v）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 161,
+        "question": "ブランチの一覧や現在地を確認するコマンドはどれか？ [1: git branch, 2: git list-branch, 3: git show-branch, 4: git status-branch]",
+        "answer": "正解: 1（git branch）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 162,
+        "question": "作業中のブランチを削除するコマンドのオプションはどれか？ [1: git branch -d, 2: git branch -r, 3: git branch -x, 4: git branch -c]",
+        "answer": "正解: 1（git branch -d）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 163,
+        "question": "マージの際にコンフリクト（衝突）が発生したときに行うべき正しい対応はどれか？ [1: 自動で解決されるので何もしない, 2: ファイルを開いて手動で競合部分を修正し、再度addしてコミットする, 3: パソコンを再起動する, 4: リポジトリを削除してやり直すしかない]",
+        "answer": "正解: 2（ファイルを開いて手動で競合部分を修正し、再度addしてコミットする）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 164,
+        "question": "Gitの「ステージングエリア（インデックス）」の役割として正しいものはどれか？ [1: コミットするファイルを一時的にまとめておく場所, 2: リモートサーバーそのもの, 3: 削除されたファイルが永遠に眠るゴミ箱, 4: パスワードを自動保存する安全な領域]",
+        "answer": "正解: 1（コミットするファイルを一時的にまとめておく場所）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 165,
+        "question": "GitHubで他の人のリポジトリを自分のアカウント下にコピーして自分のものとして開発を始める機能を何というか？ [1: Fork（フォーク）, 2: Pull Request, 3: Issue, 4: Merge]",
+        "answer": "正解: 1（Fork（フォーク））",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 166,
+        "question": "GitHubで自分の変更を本家に取り込んでもらうよう依頼する仕組みを何というか？ [1: Pull Request（プルリクエスト）, 2: Push Request, 3: Commit Request, 4: Merge Request]",
+        "answer": "正解: 1（Pull Request（プルリクエスト））",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 167,
+        "question": "Gitで直前のコミットメッセージを修正したいときに使うコマンドはどれか？ [1: git commit --amend, 2: git commit --fix, 3: git commit --change, 4: git commit --update]",
+        "answer": "正解: 1（git commit --amend）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 168,
+        "question": "過去の特定のコミットの状態までファイルを一時的に確認するためのコマンドはどれか？ [1: git checkout / git switch （コミットハッシュ）, 2: git history view, 3: git open, 4: git load]",
+        "answer": "正解: 1（git checkout / git switch （コミットハッシュ））",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 169,
+        "question": "Gitにおいて「コミットID（ハッシュ値）」は何桁の英数字で表されることが多いか？ [1: 4桁, 2: 10桁, 3: 40桁（SHA-1）, 4: 100桁]",
+        "answer": "正解: 3（40桁（SHA-1））",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 170,
+        "question": "CIDR表記の/24が意味するものとして正しいものはどれか？ [1: ネットワーク部が上位24bit, 2: ホスト部が上位24bit, 3: IPアドレスが24個, 4: クラスC専用のサブネット]",
+        "answer": "正解: 1（上位24ビットがネットワーク部）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 171,
+        "question": "IPv4アドレスのビット数として正しいものはどれか？ [1: 16ビット, 2: 32ビット, 3: 64ビット, 4: 128ビット]",
+        "answer": "正解: 2（32ビット）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 172,
+        "question": "IPアドレスの主な役割として正しいものはどれか？ [1: 端末のハードウェア固有の識別, 2: ネットワーク上の通信相手の特定（住所）, 3: アプリケーションの識別, 4: 暗号化通信の管理]",
+        "answer": "正解: 2（ネットワーク上の通信相手の特定）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 173,
+        "question": "MACアドレスの説明として正しいものはどれか？ [1: ルーターが自動割り当てする, 2: 変更可能な論理アドレス, 3: NICに割り当てられたハードウェア固有の番号, 4: ドメイン名に対応する数値]",
+        "answer": "正解: 3（NICに割り当てられたハードウェア固有の番号）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 174,
+        "question": "OSI参照モデルの階層数として正しいものはどれか？ [1: 4階層, 2: 5階層, 3: 7階層, 4: 9階層]",
+        "answer": "正解: 3（7階層）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 175,
+        "question": "TCP/IPモデルの階層数として正しいものはどれか？ [1: 3階層, 2: 4階層, 3: 5階層, 4: 7階層]",
+        "answer": "正解: 2（4階層）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 176,
+        "question": "HTTPのデフォルトのポート番号はどれか？ [1: 22番, 2: 53番, 3: 80番, 4: 443番]",
+        "answer": "正解: 3（80番）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 177,
+        "question": "HTTPSのデフォルトのポート番号はどれか？ [1: 21番, 2: 80番, 3: 443番, 4: 8080番]",
+        "answer": "正解: 3（443番）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 178,
+        "question": "SSHのデフォルトのポート番号はどれか？ [1: 22番, 2: 25番, 3: 110番, 4: 443番]",
+        "answer": "正解: 1（22番）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 179,
+        "question": "DNSの主な役割として正しいものはどれか？ [1: パケットのルーティング, 2: ドメイン名とIPアドレスの名前解決, 3: IPアドレスの動的割り当て, 4: 通信の暗号化]",
+        "answer": "正解: 2（ドメイン名とIPアドレスの名前解決）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 180,
+        "question": "TCPとUDPの違いに関する説明で正しいものはどれか？ [1: TCPは速度重視、UDPは信頼性重視, 2: TCPは信頼性重視、UDPは速度重視, 3: どちらも信頼性は同じ, 4: UDPはコネクション型である]",
+        "answer": "正解: 2（TCPは信頼性重視、UDPは速度重視）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 181,
+        "question": "NATの説明として最も適切なものはどれか？ [1: MACアドレスをIPアドレスに変換する, 2: プライベートIPとグローバルIPを相互変換する, 3: ドメイン名を暗号化する, 4: パケットを圧縮する]",
+        "answer": "正解: 2（プライベートIPとグローバルIPを相互変換する）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 182,
+        "question": "NAPT（IPマスカレード）の特徴はどれか？ [1: 1対1でしか変換できない, 2: ポート番号を使って1つのグローバルIPを複数で共有する, 3: 外部からプライベートIPが直接見えるようにする, 4: 暗号化を行う]",
+        "answer": "正解: 2（ポート番号を使って1つのグローバルIPを複数で共有する）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 183,
+        "question": "pingコマンドの用途として正しいものはどれか？ [1: ルート情報の表示, 2: 相手ホストとの通信疎通確認, 3: 開いているポートのスキャン, 4: ファイルの転送]",
+        "answer": "正解: 2（相手ホストとの通信疎通確認）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 184,
+        "question": "HTTPメソッドの「GET」の用途はどれか？ [1: データの新規作成, 2: サーバーからのデータ取得, 3: データの削除, 4: サーバー情報の書き換え]",
+        "answer": "正解: 2（サーバーからのデータ取得）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 185,
+        "question": "HTTPメソッドの「POST」の用途として正しいものはどれか？ [1: サーバーからのデータ取得, 2: データの削除, 3: サーバーへのデータ送信・新規作成, 4: 接続テスト]",
+        "answer": "正解: 3（サーバーへのデータ送信・新規作成）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 186,
+        "question": "GETリクエストでデータが送信される場所はどこか？ [1: リクエストボディ, 2: URLのクエリパラメータ, 3: クッキー内のみ, 4: サーバーのメモリ]",
+        "answer": "正解: 2（URLのクエリパラメータ）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 187,
+        "question": "ルーターが異なるネットワークへ通信を中継するために設定するIPアドレスを何というか？ [1: デフォルトゲートウェイ, 2: ローカルIP, 3: サブネットプレフィックス, 4: ブロードキャストIP]",
+        "answer": "正解: 1（デフォルトゲートウェイ）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要重点復習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 188,
+        "question": "DNSの問い合わせに使用されるポート番号はいくつかるか？ [1: 22番, 2: 53番, 3: 80番, 4: 443番]",
+        "answer": "正解: 2（53番）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 189,
+        "question": "グローバルIPアドレスの主な特徴はどれか？ [1: 組織内だけで自由に使える, 2: インターネット上で一意に識別される, 3: ルーターが自動生成する偽のIP, 4: 通信速度が必ず速くなる]",
+        "answer": "正解: 2（インターネット上で一意に識別される）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 190,
+        "question": "プライベートIPアドレスが使用される範囲はどこか？ [1: インターネット全体, 2: 組織内や家庭内のローカルネットワーク, 3: ルーターの内部回路のみ, 4: クラウドサーバー上のみ]",
+        "answer": "正解: 2（組織内や家庭内のローカルネットワーク）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 191,
+        "question": "トランスポート層で動作するプロトコルの組み合わせとして正しいものはどれか？ [1: HTTP / HTTPS, 2: TCP / UDP, 3: IP / ICMP, 4: Ethernet / Wi-Fi]",
+        "answer": "正解: 2（TCP / UDP）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 192,
+        "question": "ネットワーク層（レイヤー3）で主に使われるプロトコルはどれか？ [1: TCP, 2: HTTP, 3: IP, 4: Ethernet]",
+        "answer": "正解: 3（IP）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 193,
+        "question": "データリンク層（レイヤー2）で通信の宛先を指定するために使われるアドレスはどれか？ [1: IPアドレス, 2: MACアドレス, 3: ポート番号, 4: URL]",
+        "answer": "正解: 2（MACアドレス）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 194,
+        "question": "HTTPの通信においてサーバーがクライアントへ返すステータスコード「200」が意味することは何か？ [1: ページが見つからない (Not Found), 2: 処理が成功 (OK), 3: サーバーエラー (Internal Error), 4: リダイレクトが必要]",
+        "answer": "正解: 2（処理が成功 (OK)）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 195,
+        "question": "HTTPステータスコード「404」が意味することは何か？ [1: 成功, 2: 認証エラー, 3: ページが見つからない (Not Found), 4: サーバー側の異常]",
+        "answer": "正解: 3（ページが見つからない (Not Found)）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 196,
+        "question": "HTTPステータスコード「500番台」が意味するものは何か？ [1: クライアント側の入力ミス, 2: サーバー内部のエラー, 3: ページ移動, 4: 通信の切断]",
+        "answer": "正解: 2（サーバー内部のエラー）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 197,
+        "question": "パケット通信における「パケット」とは何を指すか？ [1: 送信データを小さなブロックに分割したもの, 2: 暗号化されたパスワードの束, 3: Webブラウザのキャッシュデータ, 4: サーバーのバックアップファイル]",
+        "answer": "正解: 1（送信データを小さなブロックに分割したもの）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 198,
+        "question": "LANとWANの違いとして正しいものはどれか？ [1: LANは広範囲、WANは局所的, 2: LANは局所的なネットワーク、WANは広域なネットワーク, 3: どちらも同じ意味, 4: LANは無線専用、WANは有線専用]",
+        "answer": "正解: 2（LANは局所的なネットワーク、WANは広域なネットワーク）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 199,
+        "question": "スイッチングハブの主な役割はどれか？ [1: 異なるネットワーク同士を接続する, 2: 同一ネットワーク内の端末間でデータを適切に中継する, 3: IPアドレスを自動で割り当てる, 4: ドメイン名を変換する]",
+        "answer": "正解: 2（同一ネットワーク内の端末間でデータを適切に中継する）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 200,
+        "question": "ルーターの主な役割はどれか？ [1: 同一ネットワーク内の転送のみ行う, 2: 異なるネットワーク間（ネットワーク層）でパケットを中継する, 3: ファイルの保存管理を行う, 4: 画面を表示する]",
+        "answer": "正解: 2（異なるネットワーク間でパケットを中継する）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 201,
+        "question": "DHCPの主な役割は何か？ [1: IPアドレスを自動的に割り当てる, 2: ドメイン名をIPに変換する, 3: パケットを暗号化する, 4: MACアドレスを固定する]",
+        "answer": "正解: 1（IPアドレスを自動的に割り当てる）",
+        "category": "network",
+        "mastery_score": 4,
+        "label": "復習中",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 202,
+        "question": "サブネットマスクの役割として正しいものはどれか？ [1: IPアドレスのネットワーク部とホスト部を区別する, 2: 通信速度を高速化する, 3: 暗号化の鍵を作る, 4: ポート番号を隠す]",
+        "answer": "正解: 1（IPアドレスのネットワーク部とホスト部を区別する）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 203,
+        "question": "TCPの「3ウェイハンドシェイク」の目的はどれか？ [1: データの暗号化方式を決める, 2: 接続を確認し、確実な通信路を確立する, 3: 回線を強制的に切断する, 4: データの圧縮率を計算する]",
+        "answer": "正解: 2（接続を確認し、確実な通信路を確立する）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 204,
+        "question": "ループバックアドレス（自分自身を示すIPアドレス）として使われるものはどれか？ [1: 192.168.1.1, 2: 10.0.0.1, 3: 127.0.0.1, 4: 255.255.255.255]",
+        "answer": "正解: 3（127.0.0.1）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 205,
+        "question": "ブロードキャストアドレスの役割はどれか？ [1: 同一ネットワーク上のすべての機器に一斉送信する, 2: 特定の1台だけに送信する, 3: インターネットの外へ送信する, 4: 通信を完全に遮断する]",
+        "answer": "正解: 1（同一ネットワーク上のすべての機器に一斉送信する）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 206,
+        "question": "IPv6アドレスのビット数として正しいものはどれか？ [1: 32ビット, 2: 64ビット, 3: 128ビット, 4: 256ビット]",
+        "answer": "正解: 3（128ビット）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 207,
+        "question": "プロキシサーバーの役割として正しいものはどれか？ [1: クライアントの代わりに代理でインターネットアクセスを行う, 2: ハードウェアの故障を修理する, 3: OSを自動アップデートする, 4: パソコンの電源を管理する]",
+        "answer": "正解: 1（クライアントの代わりに代理でインターネットアクセスを行う）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 208,
+        "question": "ファイアウォールの主な目的はどれか？ [1: 通信のスピードを上げる, 2: 不正なアクセスやパケットを遮断しセキュリティを守る, 3: ディスク容量を増やす, 4: Wi-Fiの電波を強くする]",
+        "answer": "正解: 2（不正なアクセスやパケットを遮断しセキュリティを守る）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 209,
+        "question": "セキュアな通信を行うためのTLS/SSLはOSI参照モデルのどの層で主に動作するか？ [1: 物理層, 2: トランスポート層 / アプリケーション層周辺, 3: データリンク層, 4: ネットワーク層]",
+        "answer": "正解: 2（トランスポート層 / アプリケーション層周辺）",
+        "category": "network",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 210,
+        "question": "UbuntuのベースとなったLinuxディストリビューションはどれか？ [1: RedHat, 2: CentOS, 3: Debian, 4: Fedora]",
+        "answer": "正解: 3（Debian）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 211,
+        "question": "現在自分がいるディレクトリ（カレントディレクトリ）を確認するコマンドはどれか？ [1: ls, 2: pwd, 3: cd, 4: cp]",
+        "answer": "正解: 2（pwd）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 212,
+        "question": "ディレクトリ内のファイル一覧を表示するコマンドはどれか？ [1: ls, 2: cat, 3: rm, 4: mv]",
+        "answer": "正解: 1（ls）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 213,
+        "question": "隠しファイルも含めて一覧表示するオプションはどれか？ [1: ls -l, 2: ls -a, 3: ls -r, 4: ls -h]",
+        "answer": "正解: 2（ls -a）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 214,
+        "question": "ディレクトリを移動するコマンドはどれか？ [1: mv, 2: cp, 3: cd, 4: jump]",
+        "answer": "正解: 3（cd）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 215,
+        "question": "一つ上の親ディレクトリを表す記号はどれか？ [1: ./, 2: ../, 3: ~/, 4: /]",
+        "answer": "正解: 2（../）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 216,
+        "question": "新しいディレクトリを作成するコマンドはどれか？ [1: touch, 2: mkdir, 3: newdir, 4: create]",
+        "answer": "正解: 2（mkdir）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 217,
+        "question": "ファイルを強制的に中身ごと削除するコマンドの組み合わせはどれか？ [1: rm -rf, 2: rm -f, 3: delete -r, 4: clear -all]",
+        "answer": "正解: 1（rm -rf）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 218,
+        "question": "ファイルを別の場所に複製（コピー）するコマンドはどれか？ [1: mv, 2: cp, 3: clone, 4: copy]",
+        "answer": "正解: 2（cp）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 219,
+        "question": "ファイルの形式（種類）を判別するコマンドはどれか？ [1: type, 2: check, 3: file, 4: info]",
+        "answer": "正解: 3（file）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 220,
+        "question": "コマンドを入力したときに実行ファイルを探しに行くパスのリストを何というか？ [1: PATH, 2: HOME, 3: ROOT, 4: EXEC]",
+        "answer": "正解: 1（PATH）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 221,
+        "question": "カレントディレクトリにある実行ファイルを動かす際に先頭につける記号はどれか？ [1: /#, 2: ./, 3: ?/, 4: ~/]",
+        "answer": "正解: 2（./）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 222,
+        "question": "Vimで挿入モードに入るためのキーはどれか？ [1: a, 2: i, 3: o, 4: e]",
+        "answer": "正解: 2（i キー）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 223,
+        "question": "Vimでコマンドモードに戻るためのキーはどれか？ [1: Enter, 2: Tab, 3: Esc, 4: Shift]",
+        "answer": "正解: 3（Esc キー）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 224,
+        "question": "Vimでファイルを保存して終了するコマンドはどれか？ [1: :w, 2: :q, 3: :wq, 4: :save]",
+        "answer": "正解: 3（:wq）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 225,
+        "question": "Linuxのスーパーユーザー（管理者）のユーザー名はどれか？ [1: admin, 2: super, 3: root, 4: master]",
+        "answer": "正解: 3（root）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 226,
+        "question": "パーミッションの「r」「w」「x」のうち「w」が意味するものはどれか？ [1: 読み取り, 2: 書き込み, 3: 実行, 4: 削除]",
+        "answer": "正解: 2（書き込み）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 227,
+        "question": "パーミッションを数値で表したとき、読み書き実行すべてを許可する数値はどれか？ [1: 5, 2: 6, 3: 7, 4: 8]",
+        "answer": "正解: 3（7）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 228,
+        "question": "環境変数の一覧を表示するコマンドはどれか？ [1: listenv, 2: env, 3: showvar, 4: print]",
+        "answer": "正解: 2（env）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 229,
+        "question": "ファイル内から特定の文字列を検索するコマンドはどれか？ [1: search, 2: find, 3: grep, 4: locate]",
+        "answer": "正解: 3（grep）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 230,
+        "question": "正規表現において「行頭」を表す記号はどれか？ [1: ^, 2: $, 3: ., 4: *]",
+        "answer": "正解: 1（^）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 231,
+        "question": "正規表現において「行末」を表す記号はどれか？ [1: ^, 2: $, 3: ?, 4: +]",
+        "answer": "正解: 2（$）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 232,
+        "question": "2つのファイルの差分を表示するコマンドはどれか？ [1: compare, 2: check, 3: diff, 4: match]",
+        "answer": "正解: 3（diff）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 233,
+        "question": "ファイルから特定の列（フィールド）を切り出すコマンドはどれか？ [1: cut, 2: split, 3: slice, 4: pick]",
+        "answer": "正解: 1（cut）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 234,
+        "question": "シンボリックリンクを作成するコマンドのオプションはどれか？ [1: -l, 2: -s, 3: -n, 4: -c]",
+        "answer": "正解: 2（-s）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 235,
+        "question": "実行中のプロセスを確認するコマンドはどれか？ [1: pc, 2: task, 3: ps, 4: proc]",
+        "answer": "正解: 3（ps）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 236,
+        "question": "実行中のプロセスを一時停止するキーボードショートカットはどれか？ [1: Ctrl + C, 2: Ctrl + Z, 3: Ctrl + D, 4: Ctrl + X]",
+        "answer": "正解: 2（Ctrl + Z）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 237,
+        "question": "プロセスを強制終了するコマンドはどれか？ [1: stop, 2: end, 3: kill, 4: terminate]",
+        "answer": "正解: 3（kill）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 238,
+        "question": "ファイルの所有者を変更するコマンドはどれか？ [1: chown, 2: chmod, 3: chgrp, 4: owner]",
+        "answer": "正解: 1（chown）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 239,
+        "question": "新しい空のファイルを作成したりタイムスタンプを更新するコマンドはどれか？ [1: make, 2: touch, 3: create, 4: new]",
+        "answer": "正解: 2（touch）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 240,
+        "question": "標準出力をファイルに上書き保存するためのリダイレクト記号はどれか？ [1: >, 2: >>, 3: <, 4:",
+        "answer": "]",
+        "category": "正解: 1（>）",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 241,
+        "question": "標準出力をファイルに追記するためのリダイレクト記号はどれか？ [1: >, 2: >>, 3: <, 4: &]",
+        "answer": "正解: 2（>>）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 242,
+        "question": "前のコマンドの出力を次のコマンドの入力に渡すパイプの記号はどれか？ [1: &, 2: >, 3:",
+        "answer": ", 4: ~]",
+        "category": "正解: 3（",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 243,
+        "question": "システムをシャットダウンまたは再起動する代表的なコマンドはどれか？ [1: poweroff, 2: shutdown, 3: reboot, 4: すべて正解]",
+        "answer": "正解: 4（すべて正解）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 244,
+        "question": "特定のコマンドの使い道やマニュアルを表示するコマンドはどれか？ [1: help, 2: man, 3: info, 4: doc]",
+        "answer": "正解: 2（man）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 245,
+        "question": "Debian系Linuxでパッケージのリストを更新するコマンドはどれか？ [1: apt update, 2: apt refresh, 3: apt sync, 4: apt reload]",
+        "answer": "正解: 1（apt update）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 246,
+        "question": "Debian系Linuxでインストール済みのパッケージをアップグレードするコマンドはどれか？ [1: apt upgrade, 2: apt update, 3: apt install, 4: apt renewal]",
+        "answer": "正解: 1（apt upgrade）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 247,
+        "question": "ユーザーのパスワードを変更するコマンドはどれか？ [1: passwd, 2: password, 3: chpwd, 4: user-mod]",
+        "answer": "正解: 1（passwd）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 248,
+        "question": "現在ログインしているユーザー名を確認するコマンドはどれか？ [1: whoami, 2: myname, 3: username, 4: id_user]",
+        "answer": "正解: 1（whoami）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 249,
+        "question": "ディスクの空き容量を確認するコマンドはどれか？ [1: df, 2: du, 3: free, 4: disk]",
+        "answer": "正解: 1（df）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 250,
+        "question": "ディレクトリの容量（サイズ）を確認するコマンドはどれか？ [1: df, 2: du, 3: size, 4: capacity]",
+        "answer": "正解: 2（du）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 251,
+        "question": "メモリの使用状況を確認するコマンドはどれか？ [1: memory, 2: ram, 3: free, 4: status]",
+        "answer": "正解: 3（free）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 252,
+        "question": "バックグラウンドで実行中のジョブの一覧を表示するコマンドはどれか？ [1: jobs, 2: tasks, 3: ps, 4: running]",
+        "answer": "正解: 1（jobs）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 253,
+        "question": "バックグラウンドのジョブをフォアグラウンドに戻すコマンドはどれか？ [1: fg, 2: bg, 3: back, 4: return]",
+        "answer": "正解: 1（fg）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 254,
+        "question": "テキストファイルの内容を画面に連続表示するコマンドはどれか？ [1: show, 2: cat, 3: view, 4: print]",
+        "answer": "正解: 2（cat）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 255,
+        "question": "長文のテキストファイルをスクロールしながら閲覧できるコマンドはどれか？ [1: less（またはmore）, 2: scroll, 3: read, 4: view]",
+        "answer": "正解: 1（less）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 256,
+        "question": "ファイルの先頭数行を表示するコマンドはどれか？ [1: first, 2: head, 3: top, 4: start]",
+        "answer": "正解: 2（head）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 257,
+        "question": "ファイルの末尾数行を表示するコマンドはどれか？ [1: bottom, 2: tail, 3: end, 4: last]",
+        "answer": "正解: 2（tail）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 258,
+        "question": "特定の条件に一致するファイルをシステム全体から高速に探すコマンドはどれか？ [1: search, 2: locate, 3: find, 4: grep]",
+        "answer": "正解: 2（locate）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 259,
+        "question": "Vimで文字を検索する際にコマンドモードで最初に入力する記号はどれか？ [1: /, 2: ?, 3: :, 4: @]",
+        "answer": "正解: 1（/）",
+        "category": "linux",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 260,
+        "question": "Pythonのバージョン管理を行うためのツールはどれか？ [1: venv, 2: pyenv, 3: pip, 4: conda]",
+        "answer": "正解: 2（pyenv）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 261,
+        "question": "仮想環境を作成するための標準モジュールはどれか？ [1: venv, 2: pyenv, 3: virtual, 4: envs]",
+        "answer": "正解: 1（venv）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 262,
+        "question": "仮想環境を有効化（アクティベート）するコマンドに含まれるものはどれか？ [1: start, 2: activate, 3: run, 4: begin]",
+        "answer": "正解: 2（activate）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 263,
+        "question": "Pythonのパッケージ管理ツールはどれか？ [1: npm, 2: pip, 3: apt, 4: gem]",
+        "answer": "正解: 2（pip）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 264,
+        "question": "インストール済みのパッケージ一覧をファイルに書き出すコマンドはどれか？ [1: pip save, 2: pip output, 3: pip freeze > requirements.txt, 4: pip export]",
+        "answer": "正解: 3（pip freeze > requirements.txt）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 265,
+        "question": "Pythonのデータ型で真偽値（True/False）を表すものはどれか？ [1: int, 2: str, 3: bool, 4: float]",
+        "answer": "正解: 3（bool）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 266,
+        "question": "条件分岐を記述するためのキーワードの組み合わせはどれか？ [1: if, elif, else, 2: when, then, else, 3: case, match, default, 4: check, next, stop]",
+        "answer": "正解: 1（if, elif, else）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 267,
+        "question": "複数のデータを順序あり・変更可能で保持するデータ構造はどれか？ [1: tuple, 2: list, 3: set, 4: dict]",
+        "answer": "正解: 2（list）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 268,
+        "question": "キーと値のペアでデータを保持するデータ構造はどれか？ [1: list, 2: tuple, 3: dict, 4: array]",
+        "answer": "正解: 3（dict）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 269,
+        "question": "関数を定義するためのキーワードはどれか？ [1: func, 2: define, 3: def, 4: function]",
+        "answer": "正解: 3（def）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 270,
+        "question": "オブジェクト指向において「設計図」に例えられるものはどれか？ [1: インスタンス, 2: クラス, 3: メソッド, 4: オブジェクト]",
+        "answer": "正解: 2（クラス）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 271,
+        "question": "オブジェクト指向の三大要素に含まれないものはどれか？ [1: カプセル化, 2: 継承, 3: ポリモーフィズム, 4: コンパイル]",
+        "answer": "正解: 4（コンパイル）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 272,
+        "question": "Pythonで画面に出力を行うための標準関数はどれか？ [1: print(), 2: echo(), 3: output(), 4: display()]",
+        "answer": "正解: 1（print()）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 273,
+        "question": "Pythonでユーザーからの入力を受け取るための標準関数はどれか？ [1: get(), 2: input(), 3: read(), 4: scan()]",
+        "answer": "正解: 2（input()）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 274,
+        "question": "Pythonのリストに要素を追加するためのメソッドはどれか？ [1: add(), 2: append(), 3: insert(), 4: push()]",
+        "answer": "正解: 2（append()）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 275,
+        "question": "Pythonの辞書型から特定のキーに対応する値を取り出す際に使う構文はどれか？ [1: dict[key], 2: dict.get(key), 3: 1と2の両方, 4: dict(key)]",
+        "answer": "正解: 3（1と2の両方）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 276,
+        "question": "クラスから生成された具体的な実体を何と呼ぶか？ [1: モジュール, 2: インスタンス, 3: パッケージ, 4: 関数]",
+        "answer": "正解: 2（インスタンス）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 277,
+        "question": "クラスの中に定義された変数を何と呼ぶか？ [1: グローバル変数, 2: インスタンス変数（属性）, 3: ローカル定数, 4: メソッド変数]",
+        "answer": "正解: 2（インスタンス変数（属性））",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 278,
+        "question": "クラスの中に定義された関数を何と呼ぶか？ [1: プロシージャ, 2: サブルーチン, 3: メソッド, 4: アクション]",
+        "answer": "正解: 3（メソッド）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 279,
+        "question": "オブジェクト指向における「継承」のメリットはどれか？ [1: コードを重複させず再利用できる, 2: 実行スピードが必ず倍になる, 3: ファイル容量がゼロになる, 4: バグが絶対に発生しなくなる]",
+        "answer": "正解: 1（コードを重複させず再利用できる）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 280,
+        "question": "オブジェクト指向における「ポリモーフィズム（多態性）」の説明として正しいものはどれか？ [1: 同じ名前のメソッドでもオブジェクトに応じて異なる処理を実行できる, 2: 変数の型を強制的に固定する仕組み, 3: クラスを完全に隠蔽する仕組み, 4: メモリを自動解放する仕組み]",
+        "answer": "正解: 1（同じ名前のメソッドでもオブジェクトに応じて異なる処理を実行できる）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 281,
+        "question": "オブジェクト指向における「カプセル化」の主な目的はどれか？ [1: データを隠蔽し、不正な書き換えから守る, 2: プログラムの処理速度を極限まで上げる, 3: すべての変数を誰からでも自由に触れるようにする, 4: コードの行数を増やす]",
+        "answer": "正解: 1（データを隠蔽し、不正な書き換えから守る）",
+        "category": "python",
+        "mastery_score": 5,
+        "label": "マスター",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 282,
+        "question": "Pythonでモジュールを読み込むためのキーワードはどれか？ [1: include, 2: import, 3: require, 4: load]",
+        "answer": "正解: 2（import）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 283,
+        "question": "Pythonで例外処理（エラーハンドリング）を行うためのキーワードの組み合わせはどれか？ [1: try, except, 2: catch, throw, 3: error, rescue, 4: monitor, recover]",
+        "answer": "正解: 1（try, except）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 284,
+        "question": "Pythonでファイルを読み込みモードで開く際の組み込み関数はどれか？ [1: open(filename, 'r'), 2: read(filename), 3: file.open(), 4: load(filename)]",
+        "answer": "正解: 1（open(filename, 'r')）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 285,
+        "question": "Pythonの「with文」を使う最大のメリットはどれか？ [1: 処理速度が速くなる, 2: ファイルの閉じ忘れなどの後処理を自動で行ってくれる, 3: エラーが一切起きなくなる, 4: メモリ消費が半分になる]",
+        "answer": "正解: 2（ファイルの閉じ忘れなどの後処理を自動で行ってくれる）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 286,
+        "question": "Pythonで繰り返し処理を途中で抜け出すためのキーワードはどれか？ [1: stop, 2: break, 3: exit, 4: return]",
+        "answer": "正解: 2（break）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 287,
+        "question": "Pythonでループの現在の回をスキップして次の周に進むキーワードはどれか？ [1: skip, 2: continue, 3: next, 4: pass]",
+        "answer": "正解: 2（continue）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 288,
+        "question": "Pythonで何もしないことを表すプレースホルダー的なキーワードはどれか？ [1: none, 2: pass, 3: null, 4: empty]",
+        "answer": "正解: 2（pass）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 289,
+        "question": "Pythonの標準ライブラリで乱数を扱うためのものはどれか？ [1: random, 2: math, 3: datetime, 4: json]",
+        "answer": "正解: 1（random）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 290,
+        "question": "Pythonの標準ライブラリで日付や時刻を扱うためのものはどれか？ [1: time, 2: calendar, 3: datetime, 4: すべて正解]",
+        "answer": "正解: 4（すべて正解）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 291,
+        "question": "Pythonの標準ライブラリでJSONデータを扱うためのものはどれか？ [1: json, 2: xml, 3: data, 4: text]",
+        "answer": "正解: 1（json）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 292,
+        "question": "Pythonの仮想環境（venv）の有効化を解除するコマンドはどれか？ [1: off, 2: disable, 3: deactivate, 4: close]",
+        "answer": "正解: 3（deactivate）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 293,
+        "question": "pyenvでインストール可能なPythonのバージョン一覧を表示するコマンドはどれか？ [1: pyenv list, 2: pyenv versions, 3: pyenv install --list, 4: pyenv show]",
+        "answer": "正解: 3（pyenv install --list）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 294,
+        "question": "pyenvで特定のバージョンをグローバルに設定するコマンドはどれか？ [1: pyenv global <version>, 2: pyenv set <version>, 3: pyenv use <version>, 4: pyenv change <version>]",
+        "answer": "正解: 1（pyenv global <version>）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 295,
+        "question": "Pythonで変数を定義する際に型宣言が必要か？ [1: 必ず必要, 2: 必要ない（動的型付け言語）, 3: 整数のみ必要, 4: 文字列のみ必要]",
+        "answer": "正解: 2（必要ない（動的型付け言語））",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 296,
+        "question": "Pythonでコメントアウトを記述する際に使用する記号はどれか？ [1: //, 2: /*, 3: #, 4: --]",
+        "answer": "正解: 3（#）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 297,
+        "question": "Pythonのインデント（字下げ）は何スペースが推奨されているか？ [1: 2スペース, 2: 4スペース, 3: タブキー1つ, 4: 8スペース]",
+        "answer": "正解: 2（4スペース）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 298,
+        "question": "Pythonで辞書型のすべてのキーを取得するメソッドはどれか？ [1: keys(), 2: get_keys(), 3: list_keys(), 4: show_keys()]",
+        "answer": "正解: 1（keys()）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 299,
+        "question": "Pythonで辞書型のすべての値を取得するメソッドはどれか？ [1: values(), 2: get_values(), 3: all_values(), 4: items()]",
+        "answer": "正解: 1（values()）",
+        "category": "python",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 300,
+        "question": "静的ウェブサイトの説明として正しいものはどれか？ [1: アクセスごとに内容が変化する, 2: サーバー側でプログラムを実行して動的に作る, 3: あらかじめ用意されたファイルをそのまま返す, 4: データベースと常に連動している]",
+        "answer": "正解: 3（あらかじめ用意されたファイルをそのまま返す）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 301,
+        "question": "Cookieが保存される場所として正しいものはどれか？ [1: サーバーのデータベース, 2: ユーザーのブラウザ側（クライアント）, 3: ルーターのキャッシュ, 4: クラウドのストレージ]",
+        "answer": "正解: 2（ユーザーのブラウザ側）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 302,
+        "question": "セッション情報が保存される場所として正しいものはどれか？ [1: ユーザーのブラウザ, 2: サーバー側, 3: ローカルストレージ, 4: URLのクエリ]",
+        "answer": "正解: 2（サーバー側）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 303,
+        "question": "ログインの仕組みにおいてブラウザとサーバーの間で状態維持に使われる代表的なIDはどれか？ [1: セッションID, 2: クッキーID, 3: ホストID, 4: プロキシID]",
+        "answer": "正解: 1（セッションID）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 304,
+        "question": "JWTは何の略か？ [1: Java Web Token, 2: JSON Web Token, 3: JavaScript Web Transfer, 4: Jumper Web Tool]",
+        "answer": "正解: 2（JSON Web Token）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 305,
+        "question": "動的ウェブサイトの特徴はどれか？ [1: すべてのデータがHTMLに固定されている, 2: アクセスやリクエストに応じてサーバー側でプログラムが処理を行い内容が変化する, 3: インターネット接続が不要である, 4: JavaScriptがブラウザで動かない]",
+        "answer": "正解: 2（アクセスやリクエストに応じてサーバー側でプログラムが処理を行い内容が変化する）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 306,
+        "question": "Webサーバーソフトウェアの代表例として正しいものの組み合わせはどれか？ [1: Nginx / Apache, 2: Windows / macOS, 3: Python / Ruby, 4: Git / GitHub]",
+        "answer": "正解: 1（Nginx / Apache）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 307,
+        "question": "ブラウザにURLを入力してWebページが表示されるまでの最初のステップはどれか？ [1: HTTPリクエストの送信, 2: DNSによるドメイン名の名前解決, 3: データベースの検索, 4: Cookieの生成]",
+        "answer": "正解: 2（DNSによるドメイン名の名前解決）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 308,
+        "question": "HTTPレスポンスにおいてサーバーからブラウザにCookieの保存を指示するヘッダ名はどれか？ [1: Save-Cookie, 2: Set-Cookie, 3: Send-Cookie, 4: Cookie-Store]",
+        "answer": "正解: 2（Set-Cookie）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 309,
+        "question": "ブラウザが次回以降のアクセス時に自動でサーバーへCookieを送信するために用いるリクエストヘッダ名はどれか？ [1: Cookie, 2: Send-Cookie, 3: Header-Cookie, 4: Client-Cookie]",
+        "answer": "正解: 1（Cookie）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 310,
+        "question": "セッション管理においてセッションIDをCookieに保存する最大のメリットはどれか？ [1: サーバー側でユーザーを特定しログイン状態を安全に維持できる, 2: 通信速度が必ず10倍になる, 3: パスワードを暗号化せずに平文で保存できる, 4: サーバーのメモリが全く減らなくなる]",
+        "answer": "正解: 1（サーバー側でユーザーを特定しログイン状態を安全に維持できる）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 311,
+        "question": "Webアプリケーションでフォームに入力されたパスワードなどの機密データを送信する際、GETではなくPOSTメソッドを使うべき理由はどれか？ [1: URLにパスワードが露出せず、ボディに含まれて安全に送れるから, 2: GETよりも送信スピードが圧倒的に遅いから, 3: サーバーが受け取りを拒否するから, 4: 誰でもURLから見られるようにするため]",
+        "answer": "正解: 1（URLにパスワードが露出せず、ボディに含まれて安全に送れるから）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 312,
+        "question": "HTTPS通信で使用される暗号化技術の土台となっているプロトコルはどれか？ [1: SSL/TLS, 2: HTTP/2, 3: FTP/SFTP, 4: TCP/UDP]",
+        "answer": "正解: 1（SSL/TLS）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 313,
+        "question": "Webブラウザの主要な役割はどれか？ [1: HTMLなどのコードを解釈して画面に描画（レンダリング）する, 2: OSを新規インストールする, 3: サーバーのプログラムを直接コンパイルする, 4: ネットワークケーブルを管理する]",
+        "answer": "正解: 1（HTMLなどのコードを解釈して画面に描画（レンダリング）する）",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 314,
+        "question": "クライアント・サーバーモデルにおける「クライアント」とは何を指すか？ [1: サービスを要求する側（ブラウザなど）, 2: サービスを提供する側（Webサーバー）, 3: データベースそのもの, 4: ルーターの機器]",
+        "answer": "正解: 1（サービスを要求する側（ブラウザなど））",
+        "category": "web",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 315,
+        "question": "Gitの説明として最も適切なものはどれか？ [1: クラウド上でファイルを共有するだけのサービス, 2: 変更履歴を記録・追跡する分散型バージョン管理システム, 3: Webサイトを作成するためのプログラミング言語, 4: Linuxのサーバー管理ツール]",
+        "answer": "正解: 2（変更履歴を記録・追跡する分散型バージョン管理システム）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 316,
+        "question": "ローカルリポジトリに変更履歴を記録（保存）するコマンドはどれか？ [1: git save, 2: git push, 3: git commit, 4: git record]",
+        "answer": "正解: 3（git commit）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 317,
+        "question": "ワークディレクトリの変更をステージングエリアに追加するコマンドはどれか？ [1: git add, 2: git stage, 3: git insert, 4: git put]",
+        "answer": "正解: 1（git add）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 318,
+        "question": "ローカルの変更履歴をリモートリポジトリに送信するコマンドはどれか？ [1: git send, 2: git upload, 3: git push, 4: git post]",
+        "answer": "正解: 3（git push）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 319,
+        "question": "リモートリポジトリの最新の変更をローカルに取り込む代表的なコマンドはどれか？ [1: git get, 2: git fetch, 3: git pull, 4: git download]",
+        "answer": "正解: 3（git pull）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 320,
+        "question": "新しく作業用の枝分かれした空間を作るコマンドはどれか？ [1: git tree, 2: git branch, 3: git fork, 4: git split]",
+        "answer": "正解: 2（git branch）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 321,
+        "question": "別のブランチに切り替えるモダンなコマンドはどれか？ [1: git switch, 2: git change, 3: git move, 4: git jump]",
+        "answer": "正解: 1（git switch）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 322,
+        "question": "別のブランチの変更を現在のブランチに統合するコマンドはどれか？ [1: git join, 2: git merge, 3: git combine, 4: git integrate]",
+        "answer": "正解: 2（git merge）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 323,
+        "question": "現在のGitの状況や変更ファイルを確認するコマンドはどれか？ [1: git check, 2: git state, 3: git status, 4: git info]",
+        "answer": "正解: 3（git status）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 324,
+        "question": "これまでのコミット履歴（ログ）を確認するコマンドはどれか？ [1: git history, 2: git log, 3: git record, 4: git trace]",
+        "answer": "正解: 2（git log）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 325,
+        "question": "新しくGitリポジトリを初期化（作成）するコマンドはどれか？ [1: git start, 2: git init, 3: git new, 4: git create]",
+        "answer": "正解: 2（git init）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 326,
+        "question": "リモートリポジトリを手元に複製（ダウンロード）するコマンドはどれか？ [1: git clone, 2: git copy, 3: git download, 4: git pull]",
+        "answer": "正解: 1（git clone）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 327,
+        "question": "ステージングエリアに追加した変更をやっぱり取り消す（ステージから下ろす）ための代表的なコマンドはどれか？ [1: git reset, 2: git clear, 3: git remove, 4: git delete]",
+        "answer": "正解: 1（git reset）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 328,
+        "question": "コミットメッセージを付けて履歴を保存する際のオプションはどれか？ [1: -m \"メッセージ\", 2: -t \"メッセージ\", 3: -n \"メッセージ\", 4: -d \"メッセージ\"]",
+        "answer": "正解: 1（-m \"メッセージ\"）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 329,
+        "question": "GitHubなどのリモートリポジトリの登録情報を確認するコマンドはどれか？ [1: git remote -v, 2: git repo list, 3: git url show, 4: git host check]",
+        "answer": "正解: 1（git remote -v）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 330,
+        "question": "ブランチの一覧や現在地を確認するコマンドはどれか？ [1: git branch, 2: git list-branch, 3: git show-branch, 4: git status-branch]",
+        "answer": "正解: 1（git branch）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 331,
+        "question": "作業中のブランチを削除するコマンドのオプションはどれか？ [1: git branch -d, 2: git branch -r, 3: git branch -x, 4: git branch -c]",
+        "answer": "正解: 1（git branch -d）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 332,
+        "question": "マージの際にコンフリクト（衝突）が発生したときに行うべき正しい対応はどれか？ [1: 自動で解決されるので何もしない, 2: ファイルを開いて手動で競合部分を修正し、再度addしてコミットする, 3: パソコンを再起動する, 4: リポジトリを削除してやり直すしかない]",
+        "answer": "正解: 2（ファイルを開いて手動で競合部分を修正し、再度addしてコミットする）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 333,
+        "question": "Gitの「ステージングエリア（インデックス）」の役割として正しいものはどれか？ [1: コミットするファイルを一時的にまとめておく場所, 2: リモートサーバーそのもの, 3: 削除されたファイルが永遠に眠るゴミ箱, 4: パスワードを自動保存する安全な領域]",
+        "answer": "正解: 1（コミットするファイルを一時的にまとめておく場所）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 334,
+        "question": "GitHubで他の人のリポジトリを自分のアカウント下にコピーして自分のものとして開発を始める機能を何というか？ [1: Fork（フォーク）, 2: Pull Request, 3: Issue, 4: Merge]",
+        "answer": "正解: 1（Fork（フォーク））",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要重点復習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 335,
+        "question": "GitHubで自分の変更を本家に取り込んでもらうよう依頼する仕組みを何というか？ [1: Pull Request（プルリクエスト）, 2: Push Request, 3: Commit Request, 4: Merge Request]",
+        "answer": "正解: 1（Pull Request（プルリクエスト））",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要重点復習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 336,
+        "question": "Gitで直前のコミットメッセージを修正したいときに使うコマンドはどれか？ [1: git commit --amend, 2: git commit --fix, 3: git commit --change, 4: git commit --update]",
+        "answer": "正解: 1（git commit --amend）",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 337,
+        "question": "過去の特定のコミットの状態までファイルを一時的に確認するためのコマンドはどれか？ [1: git checkout / git switch （コミットハッシュ）, 2: git history view, 3: git open, 4: git load]",
+        "answer": "正解: 1（git checkout / git switch （コミットハッシュ））",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    },
+    {
+        "id": 338,
+        "question": "Gitにおいて「コミットID（ハッシュ値）」は何桁の英数字で表されることが多いか？ [1: 4桁, 2: 10桁, 3: 40桁（SHA-1）, 4: 100桁]",
+        "answer": "正解: 3（40桁（SHA-1））",
+        "category": "git",
+        "mastery_score": 0,
+        "label": "要学習",
+        "last_reviewed": "2026-10-17"
+    }
+]
